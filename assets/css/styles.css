@@ -2,14 +2,57 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i%7cOswald:300,400,500,600,700%7cPlayfair+Display:400,400i,700,700i');
 /* fonts: "Lato", "Oswald", and "Playfair+Display". */
 
+* {
+    border: black dashed 1px;
+}
+
+html, body {
+    height: 100%;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: lightgray;
+    padding-top: 63px; /* This keeps the navbar from covering content. */
+    border: orange dashed 3px;
+}
+
+.all-posts {
+    padding-left: 151px;
+}
+
+.blog-container {
+
+    width: 750px;
+    height: 625px;
+    background-color: white;
+    padding-top: 50px; /* This needs to be adjusted so the padding comes from the header. */
+    text-align: center;
+    border: solid yellow 5px;
+
+}
+
+.blog-container > .main-text {
+    text-align: left;
+}
+
+li > img {
+    width: 100%;
+    height: 475px;
+    margin-top: 0;
+}
+
+/* ul has a padding default of 40px */
 ul {
     list-style: none;
+    padding: 0;
 }
 
 .nav-bar {
-    padding-left: 80px;
+    margin: 0 -9999rem;
+    padding: 0.25rem 9999rem;
     background-color: white;
-    width: 100%;
     height: 63px;
     position: fixed;
     top: 0;
@@ -32,7 +75,7 @@ ul > li {
 .internal-nav > li {
     display: inline-block;
     font-size: 11px;
-    padding-left: 20px;
+    /*padding-left: 20px;*/
     
 }
 
@@ -58,16 +101,10 @@ li > .nav-link {
 }
 
 
-body {
-    background-color: lightgray;
-    margin-top: 63px; /* This keeps the navbar from covering content. */
-}
+
 
 /* Will need to be more specific about which imgs */
-img {
-    width: 750px;
-    height: 473px;
-}
+
 
 
 /* when you hover over home, portfolio color change */
