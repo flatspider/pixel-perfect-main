@@ -1,0 +1,72 @@
+/* lock the nav bar at the top. confirm it is properly set */
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i%7cOswald:300,400,500,600,700%7cPlayfair+Display:400,400i,700,700i');
+/* fonts: "Lato", "Oswald", and "Playfair+Display". */
+
+.nav-bar {
+    padding-left: 80px;
+}
+
+.nav-bar > ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    display: inline-block;
+}
+
+
+/*
+ul > li {
+    display: inline-block;
+}
+*/
+
+.internal-nav > li {
+    display: inline-block;
+    font-size: 11px;
+    padding-left: 20px;
+    
+}
+
+.external-nav {
+    padding-left: 500px;
+}
+
+.external-nav > li {
+    display: inline-block;
+    
+}
+
+.external-nav > li > i {
+    font: 20px;
+    
+}
+
+
+li > .nav-link {
+    color: white;
+    font-family: Lato;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/* when you hover over home, portfolio color change */
+
+/* use font awesome to bring in those linked in logos. */
+
+/* continue reading button should :hover and then turn red */
+
+/* Structure them consistently, a la octocats */
+
+/* the link for the fonts has been provided */
+
+/* unsplash has great images. Resize them down in order to use them */
+
+/* I should feature RATTLESNAKE and CANDY MACHINE.
+
+MOBILE IS A REQUIREMENT. STRUCTURE and make it clean. Apply the same css. 
