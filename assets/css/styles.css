@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i%7cOswald:300,400,500,600,700%7cPlayfair+Display:400,400i,700,700i');
 /* fonts: "Lato", "Oswald", and "Playfair+Display". */
 
-* {
+/** {
     border: black dashed 1px;
-}
+}*/
 
 html, body {
     height: 100%;
@@ -14,39 +14,7 @@ html, body {
 
 body {
     background-color: lightgray;
-    padding-top: 63px; /* This keeps the navbar from covering content. */
-    border: orange dashed 3px;
-}
-
-.all-posts {
-    padding-left: 151px;
-}
-
-.blog-container {
-
-    width: 750px;
-    height: 625px;
-    background-color: white;
-    padding-top: 50px; /* This needs to be adjusted so the padding comes from the header. */
-    text-align: center;
-    border: solid yellow 5px;
-
-}
-
-.blog-container > .main-text {
-    text-align: left;
-}
-
-li > img {
-    width: 100%;
-    height: 475px;
-    margin-top: 0;
-}
-
-/* ul has a padding default of 40px */
-ul {
-    list-style: none;
-    padding: 0;
+    padding-top: 65px; /* This keeps the navbar from covering content. */
 }
 
 .nav-bar {
@@ -61,9 +29,139 @@ ul {
 .nav-bar > ul {
     list-style-type: none;
     overflow: hidden;
-    background-color: #333;
+    background-color: white;
     display: inline-block;
 }
+
+.internal-nav {
+    padding-left: 135px;
+    top: 50%;
+    transform: translateY(-9%);
+}
+
+.internal-nav > li {
+    display: inline-block;
+    font-size: 12px;
+    padding-left: 14px;
+    padding-right: 9px;
+    
+}
+
+.external-nav {
+    padding-left: 600px;
+    top: 50%;
+    transform: translateY(-10%);
+    
+}
+
+.external-nav > li {
+    display: inline-block;
+    padding-left: 10px;
+    
+    
+}
+
+.external-nav > li > i {
+    font: 20px;
+}
+
+
+li > .nav-link {
+    color: black;
+    font-family: Lato;
+    text-decoration: none;
+}
+
+
+
+/* -------------------- Blog post formatting  ---------------- ------------------------------------------*/
+
+.all-posts {
+    padding-left: 148px;
+}
+
+.blog-container {
+    width: 750px;
+    height: 925px;
+    background-color: white;
+    margin-top: 68px;
+    font-family: Lato; 
+}
+
+ul.blog > li.main-text {
+    
+    width: 610px;
+    text-align: left;
+    word-wrap: break-word;
+    padding-left: 40px;
+    
+}
+
+ul.blog > li.genre {
+    border: solid yellow 3px;
+    text-align: center;
+    color: red;
+    font-size: 10px;
+}
+
+ul.blog > li.title {
+    border: solid yellow 3px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/* May need to be more specific if other images come into play */
+li > img {
+    width: 100%;
+    height: 475px;
+    margin-top: -20px;
+    padding: 0px;
+}
+
+/* ul has a padding default of 40px */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.under-blog {
+    display: flex;
+    justify-content: space-between;
+}
+
+.under-blog > ul {
+    display: block;
+}
+
+.under-blog > li {
+    margin: auto;
+    display: inline-block;
+}
+
+
+ul.byline {
+    display: block;
+    border-top: 2px gray;
+}
+
+ul.byline > li {
+    display: inline-block;
+}
+
+ul.byline > .author {
+    padding-right: 250px;
+}
+
+ul.byline > li > .nav-link {
+    padding-left: 3px;
+    padding-right: 3px;
+    border: solid yellow 3px;
+}
+
+
+
 
 
 /*
@@ -72,40 +170,12 @@ ul > li {
 }
 */
 
-.internal-nav > li {
-    display: inline-block;
-    font-size: 11px;
-    /*padding-left: 20px;*/
-    
-}
 
-.external-nav {
-    padding-left: 500px;
-}
-
-.external-nav > li {
-    display: inline-block;
-    
-}
-
-.external-nav > li > i {
-    font: 20px;
-    
-}
-
-
-li > .nav-link {
-    color: white;
-    font-family: Lato;
-    text-decoration: none;
-}
 
 
 
 
 /* Will need to be more specific about which imgs */
-
-
 
 /* when you hover over home, portfolio color change */
 
