@@ -90,27 +90,43 @@ li > .nav-link {
 
 ul.blog > li.main-text {
     
-    width: 610px;
+    width: 670px;
     text-align: left;
     word-wrap: break-word;
     padding-left: 40px;
+    padding-top: 20px;
+    line-height: 1.5em;
     
 }
 
 ul.blog > li.genre {
-    border: solid yellow 3px;
     text-align: center;
     color: red;
-    font-size: 10px;
+    font-size: 11px;
+    padding-top: 40px;
 }
 
 ul.blog > li.title {
-    border: solid yellow 3px;
     text-align: center;
     font-weight: bold;
     font-size: 20px;
+    margin-top: 15px;
 }
 
+ul.blog > li > button {
+    text-align: center;
+    border: solid red 2px;
+    width: 155px;
+    height: 35px;
+    margin-top: 40px;
+    background-color: white;
+    color: red;
+    font-family: Lato;
+}
+
+ul.blog > li.continue {
+    text-align: center;
+}
 
 /* May need to be more specific if other images come into play */
 li > img {
@@ -140,35 +156,44 @@ ul {
     display: inline-block;
 }
 
-
 ul.byline {
-    display: block;
-    border-top: 2px gray;
+    margin-top: 88px;
+    border-top: solid lightgray 1.5px;
+    width: 85%;
+    margin-left: 40px;
+    color: lightgray;
 }
+
 
 ul.byline > li {
     display: inline-block;
+    top: 50%;
+    transform: translateY(90%);
 }
 
 ul.byline > .author {
-    padding-right: 250px;
+    padding-right: 310px;
 }
 
 ul.byline > li > .nav-link {
     padding-left: 3px;
     padding-right: 3px;
-    border: solid yellow 3px;
+    color: lightgray;
 }
 
-
-
-
+/* End of blog post formatting --------------------------------------------------------*/
 
 /*
 ul > li {
     display: inline-block;
 }
 */
+
+
+
+
+
+
 
 
 
