@@ -18,7 +18,6 @@ body {
     padding-top: 60px; /* This keeps the navbar from covering content. */
 }
 
-
 .nav-bar {
     background: white;
     height: 60px;
@@ -63,8 +62,8 @@ body {
 .external-nav {
     align-items: center;
     justify-content: flex-end;
-    gap: 15px;
-    padding-right: 10%;
+    gap: 17px;
+    padding-right: 11%;
 }
 
 .external-nav > li > i {
@@ -79,16 +78,57 @@ li > .nav-link {
 
 /* -------------------- Blog post formatting  ---------------- ------------------------------------------*/
 
+
+/* May need to create a flex container running column direction */
+/* Alter the arrangement so the left is two thirds of the screen, right column is one third */
+
+.left-right {
+    display: flex;
+    flex-direction: row;
+    border: solid yellow 3px;
+}
+
+.right-posts {
+    display: flex;
+    padding-left: 1%;
+    flex-direction: column;
+    width: 25%;
+    
+}
+
+.right-posts > * {
+    width: 100%;
+    height: 14%;
+    margin-top: 12%;
+
+}
+
+.right-posts > .popular {
+    width: 100%;
+    height: 25%;
+    border: solid yellow 3px;
+    margin-top: 12%;
+
+}
+
 .all-posts {
     padding-left: 10%;
+    width: 52.5%;
+    border: solid yellow 3px;
+   
+    
 }
 
 .blog-container {
     width: 750px;
     height: 925px;
     background-color: white;
-    margin-top: 68px;
+    margin-top: 6%;
     font-family: Lato; 
+    padding-right: 0%;
+    margin-right: 0%;
+    border: solid yellow 3px;
+    
 }
 
 ul.blog > li.main-text {
