@@ -93,6 +93,8 @@ li > .nav-link:hover {
 /* -------------------- Blog post formatting  ---------------- ------------------------------------------*/
 
 
+
+
 /* May need to create a flex container running column direction */
 /* Alter the arrangement so the left is two thirds of the screen, right column is one third */
 
@@ -175,6 +177,13 @@ ul.blog > li > button {
     font-family: Lato;
 }
 
+ul.blog > li > button:hover {
+    text-align: center;
+    border: solid red 2px;
+    background-color: red;
+    color: white;
+}
+
 ul.blog > li.continue {
     text-align: center;
 }
@@ -223,13 +232,19 @@ ul.byline > li {
 }
 
 ul.byline > .author {
-    padding-right: 310px;
+    padding-right: 45%;
 }
 
 ul.byline > li > .nav-link {
     padding-left: 3px;
     padding-right: 3px;
     color: lightgray;
+}
+
+ul.byline > li > .nav-link:hover {
+    padding-left: 3px;
+    padding-right: 3px;
+    color: black;
 }
 
 /* End of blog content formatting --------------------------------------------------------*/
@@ -282,9 +297,17 @@ div.bio > img.circle {
 }
 
 
-/* Will need to be more specific about which imgs */
+/* Media query has to be at the end to override all prior CSS rules */
+@media (max-width: 1100px) {
+    
+    .left-right {
+        display: flex;
+        flex-direction: column;
+        border: solid red 4px;
+    }
+   
+  }
 
-/* when you hover over home, portfolio color change */
 
 /* use font awesome to bring in those linked in logos. */
 
