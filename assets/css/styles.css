@@ -100,6 +100,7 @@ li > .nav-link {
     width: 100%;
     height: 14%;
     margin-top: 12%;
+    border: solid yellow 3px;
 
 }
 
@@ -108,15 +109,13 @@ li > .nav-link {
     height: 25%;
     border: solid yellow 3px;
     margin-top: 12%;
-
 }
+
+
 
 .all-posts {
     padding-left: 10%;
     width: 52.5%;
-    border: solid yellow 3px;
-   
-    
 }
 
 .blog-container {
@@ -127,7 +126,6 @@ li > .nav-link {
     font-family: Lato; 
     padding-right: 0%;
     margin-right: 0%;
-    border: solid yellow 3px;
     
 }
 
@@ -224,15 +222,15 @@ ul.byline > li > .nav-link {
     color: lightgray;
 }
 
-/* End of blog post formatting --------------------------------------------------------*/
+/* End of blog content formatting --------------------------------------------------------*/
 
-/*
-ul > li {
-    display: inline-block;
+.bottom-bar {
+    border: solid yellow 3px;
 }
-*/
 
-
+.bottom-bar > img {
+    border: solid yellow 3px;
+}
 
 
 /* Will need to be more specific about which imgs */
