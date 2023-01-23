@@ -26,6 +26,7 @@ body {
     display: flex;
     width: 100%;
     margin: 0px;
+    z-index: 10; /* Added to bring header in front of scrolling images */
 }
 
 .nav-bar ul {
@@ -64,16 +65,26 @@ body {
     justify-content: flex-end;
     gap: 16px;
     padding-right: 11%;
-    border: solid yellow 3px;
+   
 }
 
 .external-nav > li > .nav-link {
-   
     color: lightgray;
+}
+
+.external-nav > li > .nav-link:hover {
+    color: black;
 }
 
 li > .nav-link {
     color: black;
+    font-family: Lato;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li > .nav-link:hover {
+    color: red;
     font-family: Lato;
     text-decoration: none;
     font-weight: bold;
@@ -92,17 +103,16 @@ li > .nav-link {
 
 .right-posts {
     display: flex;
-    padding-left: 1%;
     flex-direction: column;
     width: 25%;
-    
+    margin-top: 1%;
 }
 
 .right-posts > * {
     width: 100%;
     height: 14%;
-    margin-top: 12%;
     border: solid yellow 3px;
+    margin-top: 11%;
 
 }
 
@@ -110,19 +120,20 @@ li > .nav-link {
     width: 100%;
     height: 25%;
     border: solid yellow 3px;
-    margin-top: 12%;
 }
 
 .all-posts {
     padding-left: 10%;
     width: 52.5%;
+    padding-right: 2%;
+    margin-top: 1%;
 }
 
 .blog-container {
-    width: 750px;
-    height: 925px;
+    width: 100%; /* 750px; */
+    height: 25%; /* 925px; */
     background-color: white;
-    margin-top: 9%;
+    margin-top: 8%;
     font-family: Lato; 
     padding-right: 0%;
     margin-right: 0%;
@@ -130,7 +141,7 @@ li > .nav-link {
 
 ul.blog > li.main-text {
     
-    width: 670px;
+    width:  90%;/*670px;*/
     text-align: left;
     word-wrap: break-word;
     padding-left: 40px;
@@ -222,6 +233,45 @@ ul.byline > li > .nav-link {
 }
 
 /* End of blog content formatting --------------------------------------------------------*/
+
+
+/* Left hand bio formatting --------------------------------------------------------------*/
+
+div.right-posts > * {
+    background-color: white;
+}
+
+div.bio {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+div.bio > img {
+    width: 100%;
+    height: 35%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+div.bio > img.circle {
+    width: 50%;
+    height: 35%;
+    border: solid white 7px;
+    border-radius: 50%;
+    position: absolute;
+    top: 18%;
+    left: 25%;
+    
+}
+
+
+
+
+
+
+
 
 .bottom-bar {
     border: solid yellow 3px;
