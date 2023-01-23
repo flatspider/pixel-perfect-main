@@ -1,0 +1,90 @@
+/* lock the nav bar at the top. confirm it is properly set */
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i%7cOswald:300,400,500,600,700%7cPlayfair+Display:400,400i,700,700i");
+/* fonts: "Lato", "Oswald", and "Playfair+Display". */
+
+/** {
+    border: black dashed 1px;
+}*/
+
+/* Need to use same CSS for mobile site */
+
+html,
+body {
+  height: 100%;
+  margin: auto;
+  /*overflow-x: hidden;*/
+}
+body {
+  background-color: lightgray;
+  padding-top: 60px; /* This keeps the navbar from covering content. */
+}
+
+.nav-bar {
+  background: white;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 100%;
+  margin: 0px;
+  z-index: 10; /* Added to bring header in front of scrolling images */
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: white;
+  max-width: 900px;
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+  display: flex;
+  color: black;
+}
+
+.nav-bar li {
+  list-style-type: none;
+  font-size: 1rem;
+  color: black;
+}
+
+.internal-nav {
+  align-items: center;
+  gap: 9px;
+  padding-left: 10%;
+}
+
+.internal-nav > li {
+  font-size: 11px;
+  padding-left: 5px;
+  padding-right: 8px;
+}
+
+.external-nav {
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+  padding-right: 11%;
+}
+
+.external-nav > li > .nav-link {
+  color: lightgray;
+}
+
+.external-nav > li > .nav-link:hover {
+  color: black;
+}
+
+li > .nav-link {
+  color: black;
+  font-family: Lato;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li > .nav-link:hover {
+  color: red;
+  font-family: Lato;
+  text-decoration: none;
+  font-weight: bold;
+}

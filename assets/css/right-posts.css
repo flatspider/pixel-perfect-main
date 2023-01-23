@@ -1,0 +1,42 @@
+/* Right hand bio formatting --------------------------------------------------------------*/
+
+div.right-posts > * {
+  background-color: white;
+}
+
+div.bio {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+div.bio > img {
+  width: 100%;
+  height: 35%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+div.bio > img.circle {
+  width: 50%;
+  height: 30%;
+  border: solid white 7px;
+  border-radius: 50%;
+  position: absolute;
+  top: 18%;
+  left: 25%;
+}
+
+div.bio > p {
+  /* Format, center name */
+}
+
+div.bio > .bio-text {
+  /* Format, center bio description */
+}
+
+div.bio > .external-nav {
+  display: flex;
+  flex-direction: row;
+}
