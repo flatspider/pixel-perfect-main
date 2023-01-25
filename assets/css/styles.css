@@ -1,5 +1,5 @@
 
-/* -------------------- Blog post formatting  ---------------- ------------------------------------------*/
+/* -------------------- Blog post formatting  ----------------------------------------------------------*/
 
 .left-right {
     display: flex;
@@ -36,7 +36,7 @@
 
 .blog-container {
     width: 100%; /* 750px; */
-    height: 25%; /* 925px; */
+    height: 63.5%; /* 925px; */
     background-color: white;
     margin-top: 8%;
     font-family: Lato; 
@@ -72,9 +72,9 @@ ul.blog > li.title {
 ul.blog > li > button {
     text-align: center;
     border: solid red 1px;
-    width: 24%;
-    height: 40px;
-    margin-top: 40px;
+    width: 22.8%;
+    height: 39px;
+    margin-top: 6%;
     background-color: white;
     color: red;
     font-family: Lato;
@@ -122,8 +122,8 @@ ul {
 }
 
 ul.byline {
-    margin-top: 88px;
-    border-top: solid lightgray 1.5px;
+    margin-top: 5%;
+    border-top: solid lightgray 1px;
     width: 85%;
     margin-left: 40px;
     color: lightgray;
@@ -137,6 +137,7 @@ ul.byline > li {
 
 ul.byline > .author {
     padding-right: 45%;
+    color: gray;
 }
 
 ul.byline > li > .nav-link {
@@ -151,17 +152,32 @@ ul.byline > li > .nav-link:hover {
     color: black;
 }
 
-/* End of blog content formatting --------------------------------------------------------*/
-
-
-
+/* End of blog content formatting --------------------------------------------------------------------*/
 
 .bottom-bar {
+    margin-top: 30%;
+    display: flex;
     border: solid yellow 3px;
+    flex-direction: column;
+    
 }
 
-.bottom-bar > img {
-    border: solid yellow 3px;
+.bottom-photos {
+    border: solid orange 3px;
+    display: flex;
+    /* flex-direction: row; */
+
+}
+
+.bottom-photos > li > * {
+    border: solid red 3px;
+    flex-direction: row;
+    object-fit: contain;
+    height: auto;
+}
+
+.popular > p {
+    text-align: center;
 }
 
 

@@ -20,7 +20,7 @@ div.bio > img {
 
 div.bio > img.circle {
   width: 50%;
-  height: 30%;
+  height: 35%;
   border: solid white 7px;
   border-radius: 50%;
   position: absolute;
@@ -28,15 +28,27 @@ div.bio > img.circle {
   left: 25%;
 }
 
-div.bio > p {
-  /* Format, center name */
-}
-
-div.bio > .bio-text {
-  /* Format, center bio description */
-}
-
-div.bio > .external-nav {
+div.info-below {
   display: flex;
-  flex-direction: row;
+  margin-top: 30%;
+  height: 40%;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*
+div.info-below > * {
+  border: solid black 1px;
+}
+*/
+
+div.info-below > .external-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.bio-text {
+  width: 60%;
 }
