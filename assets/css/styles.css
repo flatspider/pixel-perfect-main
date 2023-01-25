@@ -30,15 +30,15 @@
 .all-posts {
     padding-left: 10%;
     width: 52.5%;
-    padding-right: 2%;
-    margin-top: 1%;
+    padding-right: 1%;
+    margin-top: 0%;
 }
 
 .blog-container {
     width: 100%; /* 750px; */
-    height: 63.5%; /* 925px; */
+    height: 900px; /* 925px; */
     background-color: white;
-    margin-top: 8%;
+    margin-top: 81px;
     font-family: Lato; 
     padding-right: 0%;
     margin-right: 0%;
@@ -136,13 +136,13 @@ ul.byline > li {
 }
 
 ul.byline > .author {
-    padding-right: 45%;
+    padding-right: 49%;
     color: gray;
 }
 
 ul.byline > li > .nav-link {
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-left: 4px;
+    padding-right: 0px;
     color: lightgray;
 }
 
@@ -180,6 +180,29 @@ ul.byline > li > .nav-link:hover {
     text-align: center;
 }
 
+.pageBoxContainer {
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-top: 6%;
+}
+
+.pageBox {
+    width: 36px;
+    height: 29px;
+    text-align: center;
+    font-family: Lato;
+    padding-top: 7px;
+    margin-right: 5px;
+    background-color: white;
+}
+
+
+.pageBox:hover {
+    text-align: center;
+    color: white;
+    background-color: red;
+}
 
 /* Media query has to be at the end to override all prior CSS rules */
 @media (max-width: 1100px) {
