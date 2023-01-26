@@ -36,6 +36,10 @@ div.info-below {
   align-items: center;
 }
 
+div.info-below > p {
+  font-family: Oswald;
+}
+
 /*
 div.info-below > * {
   border: solid black 1px;
@@ -51,4 +55,38 @@ div.info-below > .external-nav {
 
 .bio-text {
   width: 60%;
+}
+
+/* Styling code for Popular Posts -------------------------*/
+
+ul.pop > li > img {
+  max-width: 80%;
+  height: auto;
+  padding-left: 8%;
+  padding-top: 7%;
+  padding-bottom: 2%;
+}
+
+.popular > p {
+  text-align: center;
+  font-family: Oswald;
+}
+
+div.popular {
+  height: 24.2%;
+}
+
+li.pop-title {
+  font-family: Oswald;
+}
+
+li.pop-date {
+  color: darkgray;
+  margin-top: 2%;
+  margin-bottom: -3%;
+}
+
+li.pop-date,
+li.pop-title {
+  margin-left: 7.5%;
 }

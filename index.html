@@ -9,6 +9,7 @@
       crossorigin="anonymous"
     ></script>
     <title>CM Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/bottom-bar.css" />
     <link rel="stylesheet" href="./assets/css/header.css" />
     <link rel="stylesheet" href="./assets/css/normalize.css" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
@@ -57,7 +58,8 @@
       </ul>
     </nav>
 
-    <!-- Have to add additional CSS container to organize the all-posts vs the side-posts -->
+    <!-- Have to add additional CSS container to organize the all-posts vs the side-posts
+    try <main> <section> <div> Use ids-->
     <div class="left-right">
       <div class="all-posts">
         <div class="blog-container">
@@ -312,14 +314,30 @@
         <!-- Code for Popular Posts-->
         <div class="popular">
           <p>POPULAR POSTS</p>
-          <ul>
+          <!--Beginning of single popular post-->
+          <ul class="pop">
             <li><img src="./assets/images/skiLift.jpeg" /></li>
-            <li class="genre">TRAVEL</li>
-            <li class="title">ADVENTURE TO THE CITY</li>
+            <li class="pop-title">HOMEMADE ICE-CREAM</li>
+            <li class="pop-date">January 20, 2023</li>
           </ul>
-          <ul class="byline">
-            <li class="author">By Conor On January 20, 2023</li>
+          <ul class="byline"></ul>
+          <!--End of single popular post-->
+          <!--Beginning of single popular post-->
+          <ul class="pop">
+            <li><img src="./assets/images/skiLift.jpeg" /></li>
+            <li class="pop-title">LLAMA TREKS</li>
+            <li class="pop-date">January 20, 2023</li>
           </ul>
+          <ul class="byline"></ul>
+          <!--End of single popular post-->
+          <!--Beginning of single popular post-->
+          <ul class="pop">
+            <li><img src="./assets/images/skiLift.jpeg" /></li>
+            <li class="pop-title">THE MOMENT OF PINEAPPLE</li>
+            <li class="pop-date">January 20, 2023</li>
+          </ul>
+          <ul class="byline"></ul>
+          <!--End of single popular post-->
         </div>
 
         <div class="latest"></div>
@@ -328,6 +346,9 @@
     </div>
     <!-- Code for Latest Posts-->
     <!-- Code for six Instagram Post photos -->
+
+    <!--Below is HTML for Instagram picture navigation bar-->
+    <!--Below is HTML for Carolina Code Schools Build Cool Stuff navigation bar-->
 
     <!--Below is HTML for bottom navigation bars-->
     <div class="ig-follow">FOLLOW ME ON IG</div>
@@ -343,8 +364,6 @@
         <li><img src="./assets/images/skiLift.jpeg" /></li>
       </ul>
     </nav>
-    <div class="build-things">Carolina Code Schools Build Cool Stuff</div>
-    <!--Below is HTML for Instagram picture navigation bar-->
-    <!--Below is HTML for Carolina Code Schools Build Cool Stuff navigation bar-->
+    <div class="build-things">Carolina Code School Builds Cool Stuff</div>
   </body>
 </html>

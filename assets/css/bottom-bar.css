@@ -1,0 +1,42 @@
+/* CSS page for the bottom three rows */
+
+div.ig-follow {
+  text-align: center;
+  margin-top: 5%;
+  height: 0%;
+  border: solid red 3px;
+  padding: 1%;
+  font-family: Lato;
+  background-color: white;
+}
+
+nav.bottom-bar {
+  margin: 0;
+}
+
+/* End of blog content formatting --------------------------------------------------------------------*/
+
+.bottom-bar {
+  margin-top: 0%;
+  display: flex;
+}
+
+.bottom-photos {
+  display: flex;
+  /* flex-direction: row; */
+}
+
+.bottom-photos > li > * {
+  flex-direction: row;
+  object-fit: cover;
+  width: 120%;
+  height: auto;
+}
+
+div.build-things {
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: #2e2e2e;
+  color: gray;
+}
