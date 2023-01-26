@@ -20,7 +20,7 @@ div.bio > img {
 
 div.bio > img.circle {
   width: 50%;
-  height: 35%;
+  height: 32%;
   border: solid white 7px;
   border-radius: 50%;
   position: absolute;
