@@ -90,3 +90,30 @@ li.pop-date,
 li.pop-title {
   margin-left: 7.5%;
 }
+
+/* ------------------ Latest Posts Styling ---------- */
+
+div.latest > p {
+  font-family: Oswald;
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 10%;
+}
+
+ul.late > li > img {
+  border: solid red 3px;
+  max-width: 80%;
+  height: auto;
+  padding-left: 8.2%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+ul.late {
+  display: flex;
+}
+
+ul.late > li {
+  width: 60%;
+  height: 60%;
+}
