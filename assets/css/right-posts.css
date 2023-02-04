@@ -120,13 +120,35 @@ ul.late > li {
 
 /*---------------- Instagram Feed Posts -----------------------------------------*/
 
-div.ig-feed {
-  border: solid yellow 3px;
-}
-
 div.ig-feed > p {
   font-family: Oswald;
   text-align: center;
   font-size: 1.2em;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
+}
+
+.ig-photo {
+  width: 75%;
+  margin-top: 15px;
+}
+
+.igleft {
+  margin-left: 35px;
+}
+
+.igright {
+  margin-left: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }
