@@ -86,7 +86,7 @@ ul.blog > li.continue {
 }
 
 /* May need to be more specific if other images come into play */
-li > img {
+ul.blog > li > img {
     width: 100%;
     height: 475px;
     margin-top: -20px;
