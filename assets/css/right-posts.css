@@ -117,3 +117,16 @@ ul.late > li {
   width: 60%;
   height: 60%;
 }
+
+/*---------------- Instagram Feed Posts -----------------------------------------*/
+
+div.ig-feed {
+  border: solid yellow 3px;
+}
+
+div.ig-feed > p {
+  font-family: Oswald;
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 10%;
+}
