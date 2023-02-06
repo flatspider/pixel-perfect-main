@@ -9,10 +9,10 @@ div.bottom-bar-container {
 
 div.ig-follow {
   text-align: center;
-
-  font-family: Lato;
+  font-family: Oswald;
   background-color: white;
   height: 8%;
+  font-size: 1.2em;
 }
 
 ul.bottom-photos {
