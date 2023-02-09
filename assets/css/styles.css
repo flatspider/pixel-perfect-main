@@ -1,195 +1,288 @@
 /* -------------------- Blog post formatting  ----------------------------------------------------------*/
 
 .left-right {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .right-posts {
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    margin-top: 1.4%;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-top: 1.4%;
 }
 
 .right-posts > * {
-    width: 100%;
-    height: 14%;
-    margin-top: 11%;
-
+  width: 100%;
+  height: 14%;
+  margin-top: 11%;
 }
 
 .all-posts {
-    padding-left: 10%;
-    width: 52.5%;
-    padding-right: 3%;
-    margin-top: 0%;
+  padding-left: 10%;
+  width: 52.5%;
+  padding-right: 3%;
+  margin-top: 0%;
 }
 
 .blog-container {
-    width: 100%; /* 750px; */
-    height: 900px; /* 925px; */
-    background-color: white;
-    margin-top: 81px;
-    font-family: Lato; 
-    padding-right: 0%;
-    margin-right: 0%;
+  width: 100%; /* 750px; */
+  height: 900px; /* 925px; */
+  background-color: white;
+  margin-top: 81px;
+  font-family: Lato;
+  padding-right: 0%;
+  margin-right: 0%;
 }
 
 ul.blog > li.main-text {
-    
-    width:  90%;/*670px;*/
-    text-align: left;
-    word-wrap: break-word;
-    padding-left: 40px;
-    padding-top: 20px;
-    line-height: 1.5em;
-    
+  width: 90%; /*670px;*/
+  text-align: left;
+  word-wrap: break-word;
+  padding-left: 40px;
+  padding-top: 20px;
+  line-height: 1.5em;
 }
 
 ul.blog > li.genre {
-    text-align: center;
-    color: red;
-    font-size: 11px;
-    padding-top: 40px;
+  text-align: center;
+  color: red;
+  font-size: 11px;
+  padding-top: 40px;
 }
 
 ul.blog > li.title {
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-    margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 15px;
 }
 
 ul.blog > li > button {
-    text-align: center;
-    border: solid red 1px;
-    width: 22.8%;
-    height: 39px;
-    margin-top: 6%;
-    background-color: white;
-    color: red;
-    font-family: Lato;
-    font-size: 0.8em;
-    font-weight: bold;
+  text-align: center;
+  border: solid red 1px;
+  width: 22.8%;
+  height: 39px;
+  margin-top: 6%;
+  background-color: white;
+  color: red;
+  font-family: Lato;
+  font-size: 0.8em;
+  font-weight: bold;
 }
 
 ul.blog > li > button:hover {
-    text-align: center;
-    border: solid red 2px;
-    background-color: red;
-    color: white;
+  text-align: center;
+  border: solid red 2px;
+  background-color: red;
+  color: white;
 }
 
 ul.blog > li.continue {
-    text-align: center;
+  text-align: center;
 }
 
 /* May need to be more specific if other images come into play */
 ul.blog > li > img {
-    width: 100%;
-    height: 475px;
-    margin-top: -20px;
-    padding: 0px;
+  width: 100%;
+  height: 475px;
+  margin-top: -20px;
+  padding: 0px;
 }
 
 /* ul has a padding default of 40px */
 ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .under-blog {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .under-blog > ul {
-    display: block;
+  display: block;
 }
 
 .under-blog > li {
-    margin: auto;
-    display: inline-block;
+  margin: auto;
+  display: inline-block;
 }
 
 ul.byline {
-    margin-top: 5%;
-    border-top: solid lightgray 1px;
-    width: 85%;
-    margin-left: 40px;
-    color: lightgray;
+  margin-top: 5%;
+  border-top: solid lightgray 1px;
+  width: 85%;
+  margin-left: 40px;
+  color: lightgray;
 }
 
 ul.byline > li {
-    display: inline-block;
-    top: 50%;
-    transform: translateY(90%);
+  display: inline-block;
+  top: 50%;
+  transform: translateY(90%);
 }
 
 ul.byline > .author {
-    padding-right: 47%;
-    color: gray;
+  padding-right: 47%;
+  color: gray;
 }
 
 ul.byline > li > .nav-link {
-    padding-left: 4px;
-    padding-right: 0px;
-    color: lightgray;
+  padding-left: 4px;
+  padding-right: 0px;
+  color: lightgray;
 }
 
 ul.byline > li > .nav-link:hover {
-    padding-left: 3px;
-    padding-right: 3px;
-    color: black;
+  padding-left: 3px;
+  padding-right: 3px;
+  color: black;
 }
 
 .pageBoxContainer {
-    display: flex;
-    width: auto;
-    height: auto;
-    margin-top: 6%;
+  display: flex;
+  width: auto;
+  height: auto;
+  margin-top: 6%;
 }
 
 .pageBox {
-    width: 36px;
-    height: 29px;
-    text-align: center;
-    font-family: Lato;
-    padding-top: 7px;
-    margin-right: 5px;
-    background-color: white;
+  width: 36px;
+  height: 29px;
+  text-align: center;
+  font-family: Lato;
+  padding-top: 7px;
+  margin-right: 5px;
+  background-color: white;
 }
 
 .pageBox:hover {
-    text-align: center;
-    color: white;
-    background-color: red;
+  text-align: center;
+  color: white;
+  background-color: red;
 }
 
 /* Media query has to be at the end to override all prior CSS rules */
+
+/* MOBILE IS A REQUIREMENT. STRUCTURE and make it clean. Apply the same css. */
+/* Below is styling for the animated hamburger menu */
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.35s, visibility 0.35s, height 0.35s;
+  overflow: hidden;
+  background: black;
+  z-index: -1;
+}
+
+#hamburger-input {
+  display: none;
+}
+
+#hamburger-menu {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  display: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Cabin", Sans-serif;
+  background: linear-gradient(
+    to bottom,
+    #3d0e61,
+    #3d0e61 20%,
+    white 20%,
+    white 40%,
+    #3d0e61 40%,
+    #3d0e61 60%,
+    white 60%,
+    white 80%,
+    #3d0e61 80%,
+    #3d0e61 100%
+  );
+}
+
+#hamburger-menu #sidebar-menu {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 200px;
+  height: 100%;
+  background-color: #3d0e61;
+  transition: 0.3s;
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+
+#hamburger-menu h3 {
+  color: #b9faf8;
+  font-size: 2.2rem;
+}
+
+#hamburger-menu ul {
+  padding-left: 0px;
+}
+
+#hamburger-menu li {
+  list-style-type: none;
+  line-height: 3rem;
+}
+
+#hamburger-menu a {
+  color: #b9faf8;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+#hamburger-menu a:hover {
+  text-decoration: underline;
+}
+
+#hamburger-input:checked + #hamburger-menu #sidebar-menu {
+  visibility: visible;
+  left: 0;
+}
+#hamburger-input:checked ~ .overlay {
+  visibility: visible;
+  opacity: 0.4;
+}
+
+/* Media query */
+
+@media screen and (max-width: 750px) {
+  .nav-bar {
+    display: none;
+  }
+  #hamburger-menu {
+    display: inline;
+  }
+}
+
 @media (max-width: 1100px) {
-    
-    .left-right {
-        display: flex;
-        flex-direction: column;
-        border: solid red 4px;
-    }
-   
+  .left-right {
+    display: flex;
+    flex-direction: column;
+    border: solid red 4px;
   }
 
-/* use font awesome to bring in those linked in logos. */
+  .all-posts {
+    border: dashed red 3px;
+  }
 
-/* continue reading button should :hover and then turn red */
-
-/* Structure them consistently, a la octocats */
-
-/* the link for the fonts has been provided */
-
-/* unsplash has great images. Resize them down in order to use them */
-
-/* I should feature RATTLESNAKE and CANDY MACHINE.
-
-MOBILE IS A REQUIREMENT. STRUCTURE and make it clean. Apply the same css. 
-
-
+  .right-posts {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
