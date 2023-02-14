@@ -133,6 +133,7 @@ ul.byline > li > .nav-link {
   padding-left: 4px;
   padding-right: 0px;
   color: lightgray;
+  margin-left: auto;
 }
 
 ul.byline > li > .nav-link:hover {
@@ -202,12 +203,12 @@ ul.byline > li > .nav-link:hover {
     to bottom,
     #3d0e61,
     #3d0e61 20%,
-    white 20%,
-    white 40%,
+    #f2f2f2 20%,
+    #f2f2f2 40%,
     #3d0e61 40%,
     #3d0e61 60%,
-    white 60%,
-    white 80%,
+    #f2f2f2 60%,
+    #f2f2f2 80%,
     #3d0e61 80%,
     #3d0e61 100%
   );
@@ -261,12 +262,20 @@ ul.byline > li > .nav-link:hover {
 
 /* Media query */
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 950px) {
   .nav-bar {
     display: none;
   }
   #hamburger-menu {
     display: inline;
+  }
+  body {
+    padding-top: 0;
+  }
+
+  li > .hide {
+    display: none;
+    border: solid red 3px;
   }
 }
 
@@ -274,15 +283,24 @@ ul.byline > li > .nav-link:hover {
   .left-right {
     display: flex;
     flex-direction: column;
-    border: solid red 4px;
   }
 
   .all-posts {
-    border: dashed red 3px;
+    width: 80%;
+    margin-top: 40px;
+  }
+
+  .blog-container {
+    height: 1000px;
   }
 
   .right-posts {
     width: 80%;
     margin-left: 10%;
+  }
+
+  ul.byline > .author {
+    color: gray;
+    /* This prevents the logos from disappearing completely...*/
   }
 }
