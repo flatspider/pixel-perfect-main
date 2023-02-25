@@ -81,7 +81,7 @@ ul.pop > li > img {
 }
 
 div.popular {
-  height: 26.5%;
+  height: auto;
 }
 
 li.pop-title {
@@ -100,6 +100,10 @@ li.pop-title {
 }
 
 /* ------------------ Latest Posts Styling ---------- */
+
+div.latest {
+  height: auto;
+}
 
 div.latest > p {
   font-family: Oswald;
@@ -133,6 +137,10 @@ ul.late > li {
 }
 
 /*---------------- Instagram Feed Posts -----------------------------------------*/
+
+div.ig-feed {
+  height: auto;
+}
 
 div.ig-feed > p {
   font-family: Oswald;
