@@ -174,3 +174,7 @@ div.ig-feed > p {
   flex-basis: 100%;
   flex: 1;
 }
+
+div.image-wrapper {
+  margin-bottom: 20px;
+}

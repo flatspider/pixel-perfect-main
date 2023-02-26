@@ -261,6 +261,12 @@ ul.byline > li > .nav-link:hover {
 }
 
 /* Media query */
+@media screen and (max-width: 650px) {
+  ul.bottom-photos > li > .hide {
+    display: none;
+    border: solid red 3px;
+  }
+}
 
 @media screen and (max-width: 950px) {
   .nav-bar {
@@ -271,11 +277,6 @@ ul.byline > li > .nav-link:hover {
   }
   body {
     padding-top: 0;
-  }
-
-  li > .hide {
-    display: none;
-    border: solid red 3px;
   }
 }
 
